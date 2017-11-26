@@ -1,12 +1,12 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Map::Tube interface to the Athens Metro",
    "author" : [
       "Errietta Kostala <errietta@errietta.me>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v3.0.13, CPAN::Meta::Converter version 2.143240",
    "license" : [
-      "perl_5"
+      "unknown"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -42,15 +42,27 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008001"
-         }
-      },
-      "test" : {
-         "requires" : {
-            "Test::More" : "0.98"
+            "File::Share" : "0",
+            "Map::Tube" : "3.32",
+            "Moo" : "0",
+            "namespace::clean" : "0"
          }
       }
    },
    "release_status" : "unstable",
-   "version" : "0.01"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/errietta/Map-Tube-Athens/issues"
+      },
+      "homepage" : "https://github.com/errietta/Map-Tube-Athens",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/errietta/Map-Tube-Athens.git",
+         "web" : "https://github.com/errietta/Map-Tube-Athens"
+      }
+   },
+   "version" : "0.01",
+   "x_contributors" : [
+      "Mohammad S Anwar <mohammad.anwar@yahoo.com>"
+   ]
 }

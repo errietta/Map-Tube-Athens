@@ -22,6 +22,10 @@ Map::Tube::Athens - Map::Tube interface to the Athens Metro
     my $route = $tube->get_shortest_route('Piraeus', 'Syntagma');
     print $tube->to_string($route);
 
+=head1 AUTHOR
+
+Errietta Kostala <errietta@errietta.me>
+
 =head1 DESCRIPTION
 
 It currently provides functionality to find the shortest route between the two given nodes. It covers the following metro lines:
