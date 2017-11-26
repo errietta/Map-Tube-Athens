@@ -16,7 +16,7 @@ Map::Tube::Athens - Map::Tube interface to the Athens Metro
     print $MAP_IMAGE decode_base64($tube->as_image);
     close($MAP_IMAGE);
 
-    my $line = $tube->get_line_by_name('LINE 1');
+    my $line = $tube->get_line_by_name('M1');
     print $tube->to_string($line),   "\n\n";
 
     my $route = $tube->get_shortest_route('Piraeus', 'Syntagma');
@@ -28,11 +28,11 @@ It currently provides functionality to find the shortest route between the two g
 
 =over
 
-=item Metro Line 1
+=item Metro Line M1
 
-=item Metro Line 2
+=item Metro Line M2
 
-=item Metro Line 3
+=item Metro Line M3
 
 =back
 
