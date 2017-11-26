@@ -32,6 +32,13 @@ What I found out was that it's surprisingly difficult to find an up-to-date, acc
 
 If you can read Greek, there's also [http://www.ypodomes.com/media/k2/items/cache/12a344790c511a0cdcacaded32f8a413\_XL.jpg](http://www.ypodomes.com/media/k2/items/cache/12a344790c511a0cdcacaded32f8a413_XL.jpg).
 
+# EXAMPLE OUTPUT
+
+This is the full map, generated with this module
+
+![Image of Athens metro](https://errietta.me/Athens_Metro.png)
+
+
 # SEE ALSO
 
 [Map::Tube](https://metacpan.org/pod/Map::Tube)
