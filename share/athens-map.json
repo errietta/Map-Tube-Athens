@@ -11,13 +11,13 @@
         "station" :
             [
 
-                 { "id" : "OMONIA",      "name": "Omonia",      "line": "M1:9,M2:8",  "link": "MONASTIRAKI,M1-10,M2-07,M2-09" },
-                 { "id" : "ATTIKI",      "name": "Attiki",      "line": "M1:11,M2:5", "link": "M1-10,M1-12,M2-04,M2-06"       },
-                 { "id" : "SYNTAGMA",    "name": "Syntagma",    "line": "M2:10,M3:6", "link": "MONASTIRAKI,M2-09,M2-11"       },
-                 { "id" : "MONASTIRAKI", "name": "Monastiraki", "line": "M1:8,M3:5",  "link": "M1-07,OMONIA,M3-04,SYNTAGMA"   },
+                 { "id" : "OMONIA",      "name": "Omonia",      "line": "M1:9,M2:8",  "link": "MONASTIRAKI,M1-10,M2-07,M2-09"      },
+                 { "id" : "ATTIKI",      "name": "Attiki",      "line": "M1:11,M2:5", "link": "M1-10,M1-12,M2-04,M2-06"            },
+                 { "id" : "SYNTAGMA",    "name": "Syntagma",    "line": "M2:10,M3:6", "link": "MONASTIRAKI,M2-09,M2-11,M3-07"      },
+                 { "id" : "MONASTIRAKI", "name": "Monastiraki", "line": "M1:8,M3:5",  "link": "M1-07,OMONIA,M3-04,SYNTAGMA"        },
 
                  { "id" : "M1-01", "name": "Piraeus",         "line": "M1:1",     "link": "M1-02"             },
-                 { "id" : "M1-02", "name": "Faliro",          "line": "M1:2",     "link": "M1-01,M1-03"        },
+                 { "id" : "M1-02", "name": "Faliro",          "line": "M1:2",     "link": "M1-01,M1-03"       },
                  { "id" : "M1-03", "name": "Moschato",        "line": "M1:3",     "link": "M1-02,M1-04"       },
                  { "id" : "M1-04", "name": "Kalithea",        "line": "M1:4",     "link": "M1-03,M1-05"       },
                  { "id" : "M1-05", "name": "Tavros",          "line": "M1:5",     "link": "M1-04,M1-06"       },
@@ -61,7 +61,7 @@
                  { "id" : "M3-03", "name": "Eleonas",              "line": "M3:3",    "link": "M3-02,M3-04"       },
                  { "id" : "M3-04", "name": "Kerameikos",           "line": "M3:4",    "link": "M3-03,MONASTIRAKI" },
                  { "id" : "M3-07", "name": "Evangelismos",         "line": "M3:7",    "link": "SYNTAGMA,M3-08"    },
-                 { "id" : "M3-08", "name": "Megaro Moussikis",     "line": "M3:7",    "link": "M3-07,M3-09"       },
+                 { "id" : "M3-08", "name": "Megaro Moussikis",     "line": "M3:8",    "link": "M3-07,M3-09"       },
                  { "id" : "M3-09", "name": "Ambelokipi",           "line": "M3:9",    "link": "M3-08,M3-10"       },
                  { "id" : "M3-10", "name": "Panormou",             "line": "M3:10",   "link": "M3-09,M3-11"       },
                  { "id" : "M3-11", "name": "Katehaki",             "line": "M3:11",   "link": "M3-10,M3-12"       },
